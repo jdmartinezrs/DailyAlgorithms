@@ -1,13 +1,12 @@
 //import countvowers from './algorithms/countRepitedCharacters.js';
 //import isAnagram from './algorithms/strings/anagrams.js';
 //port esPalindromo from './algorithms/strings/palindromos.js'
-import contarVocal from './algorithms/strings/contarVocales.js';
-
-
+//import contarVocal from './algorithms/strings/contarVocales.js';
+import records from './algorithms/arrays/arraysUno.js';
 
 export default function main() {
 
-console.log(contarVocal("amazonas"));
+//console.log(contarVocal("amazonas"));
 //nsole.log(esPalindromo("Anita lava la tina")); 
 // true
   //  console.log(isAnagram("roma", "amor"));
@@ -19,6 +18,7 @@ console.log(contarVocal("amazonas"));
 }
 
 main();
+
 
 
 
