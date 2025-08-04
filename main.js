@@ -2,10 +2,17 @@
 //import isAnagram from './algorithms/strings/anagrams.js';
 //port esPalindromo from './algorithms/strings/palindromos.js'
 //import contarVocal from './algorithms/strings/contarVocales.js';
-import records from './algorithms/arrays/arraysUno.js';
-
+//import records from './algorithms/arrays/arraysUno.js';
+//import esPalindromo2 from './algorithms/strings/palindromos.js';
+//import countRepetedCharacters from './algorithms/strings/countRepitedCharacters.js';
+import invertArrayConMethod from './algorithms/strings/invertirUnArray.js';
+//import invertirArray from './algorithms/strings/invertirUnArray.js';
 export default function main() {
+const array = [1, 2, 3, 4, 5];
+console.log(invertArrayConMethod(array))
 
+//console.log(countRepetedCharacters(0));
+//console.log(esPalindromo2("Anitalavala tina")); // true
 //console.log(contarVocal("amazonas"));
 //nsole.log(esPalindromo("Anita lava la tina")); 
 // true
