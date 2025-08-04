@@ -5,11 +5,12 @@
 //import records from './algorithms/arrays/arraysUno.js';
 //import esPalindromo2 from './algorithms/strings/palindromos.js';
 //import countRepetedCharacters from './algorithms/strings/countRepitedCharacters.js';
-import invertirArray from './algorithms/strings/invertirUnArray.js';
+import invertArrayConMethod from './algorithms/strings/invertirUnArray.js';
+//import invertirArray from './algorithms/strings/invertirUnArray.js';
 export default function main() {
+const array = [1, 2, 3, 4, 5];
+console.log(invertArrayConMethod(array))
 
-const arr = [10,19,9,19,10,7,1];
-console.log(invertirArray(arr))
 //console.log(countRepetedCharacters(0));
 //console.log(esPalindromo2("Anitalavala tina")); // true
 //console.log(contarVocal("amazonas"));
