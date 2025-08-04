@@ -3,8 +3,14 @@ const esPalindromo=(cadena) =>{
     const cadenaReversed = cadenaLimpia.split('').reverse().join('');
     return cadenaLimpia === cadenaReversed;
 }
-export default esPalindromo;
+//export default esPalindromo;
 
 
+const esPalindromo2 = (word) => {
+    const palabra = word.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const palabraReversed = palabra.split('').reverse().join('');
+    return palabra === palabraReversed;
+}
 
+export default esPalindromo2;
 
