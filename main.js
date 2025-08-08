@@ -7,14 +7,17 @@
 //import countRepetedCharacters from './algorithms/strings/countRepitedCharacters.js';
 //import invertArrayConMethod from './algorithms/strings/invertirUnArray.js';
 //import invertirArray from './algorithms/strings/invertirUnArray.js';
-import threeGreatCandidates from './algorithms/arrays/threeGreatCandidates.js';
+//import threeGreatCandidates from './algorithms/arrays/threeGreatCandidates.js';
 //import  secondLrgest  from './algorithms/arrays/secondLargestElement.js'
+import {caso1CuadradoIgualARaices,calcularLado} from './algorithms/historic/MuḥammadIbnMūsāAl-Khwarizmi/1-cuadradoIgualRaices.js'
 export default function main() {
 
-const numbers = [2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 5, 6, 7];
+console.log(caso1CuadradoIgualARaices(80))
+console.log(calcularLado(90))
+//const numbers = [2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 5, 6, 7];
 
 
-console.log(threeGreatCandidates(numbers)); 
+//console.log(threeGreatCandidates(numbers)); 
 /*const arr = ['hola', 'adios', 'buenos dias', 'buenas noches'];
 const result = secondLrgest (arr);
 console.log(result); */
