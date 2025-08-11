@@ -9,11 +9,15 @@
 //import invertirArray from './algorithms/strings/invertirUnArray.js';
 //import threeGreatCandidates from './algorithms/arrays/threeGreatCandidates.js';
 //import  secondLrgest  from './algorithms/arrays/secondLargestElement.js'
-import {caso1CuadradoIgualARaices,calcularLado} from './algorithms/historic/MuḥammadIbnMūsāAl-Khwarizmi/1-cuadradoIgualRaices.js'
+//import {caso1CuadradoIgualARaices,calcularLado} from './algorithms/historic/MuḥammadIbnMūsāAl-Khwarizmi/1-cuadradoIgualRaices.js'
+
+import { findFactorialOfANumber } from "./algorithms/numbers/factorial.js";
 export default function main() {
 
-console.log(caso1CuadradoIgualARaices(80))
-console.log(calcularLado(90))
+
+console.log(findFactorialOfANumber(3));
+//console.log(caso1CuadradoIgualARaices(80))
+//console.log(calcularLado(90))
 //const numbers = [2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 5, 6, 7];
 
 
